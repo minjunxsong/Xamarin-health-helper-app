@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HPxamarin.FoodPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="20">
+                <Label Text="식단 일지" FontSize="24" HorizontalOptions="CenterAndExpand" Margin="0,10,0,20"/>
+
+                <!-- 아침 식사 -->
+                <Label Text="아침" FontSize="20" Margin="0,10,0,5"/>
+                <Button Text="식단 추가" Clicked="AddMealButton_Clicked" CommandParameter="Breakfast" Margin="0,0,0,5"/>
+                <StackLayout x:Name="BreakfastNutritionLayout" Margin="20,0,0,0"></StackLayout>
+
+                <!-- 점심 식사 -->
+                <Label Text="점심" FontSize="20" Margin="0,10,0,5"/>
+                <Button Text="식단 추가" Clicked="AddMealButton_Clicked" CommandParameter="Lunch" Margin="0,0,0,5"/>
+                <StackLayout x:Name="LunchNutritionLayout" Margin="20,0,0,0"></StackLayout>
+
+                <!-- 저녁 식사 -->
+                <Label Text="저녁" FontSize="20" Margin="0,10,0,5"/>
+                <Button Text="식단 추가" Clicked="AddMealButton_Clicked" CommandParameter="Dinner" Margin="0,0,0,5"/>
+                <StackLayout x:Name="DinnerNutritionLayout" Margin="20,0,0,0"></StackLayout>
+
+                <!-- 저장 버튼 -->
+                <Button Text="저장" Clicked="SaveButton_Clicked" HorizontalOptions="Center" Margin="0,20,0,0"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

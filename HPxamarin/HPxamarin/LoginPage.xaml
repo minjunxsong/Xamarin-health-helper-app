@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="HPxamarin.LoginPage">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="CenterAndExpand" Orientation="Vertical">
+            <Label x:Name="MyUserName" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+            <Label x:Name="UserEmail" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+            <Label x:Name="AgeLabel" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+            <Label x:Name="HeightLabel" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+            <Label x:Name="WeightLabel" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+            <Button x:Name="Logout" Text="Logout" BackgroundColor="Blue" TextColor="White" Clicked="Logout_Clicked"/>
+             <Button Text="식단일지" BackgroundColor="Green" TextColor="White" Clicked="ExerciseJournal_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

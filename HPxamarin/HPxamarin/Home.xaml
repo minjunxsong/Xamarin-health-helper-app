@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:microcharts="clr-namespace:Microcharts.Forms;assembly=Microcharts.Forms"
+             xmlns:controls="clr-namespace:XamForms.Controls;assembly=XamForms.Controls.Calendar"
+             x:Class="HPxamarin.Home">
+
+    <Grid>
+        <!-- 행 정의 -->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <!-- 첫 번째 행: Calendar -->
+        <controls:Calendar x:Name="exerciseCalendar"
+                           SelectedDate="{Binding SelectedDate}"
+                           SelectedTextColor="White"
+                           DatesBackgroundColor="#2196F3"
+                           DatesTextColor="White"
+                           ShowNumberOfWeek="false"
+                           ShowNumOfMonths="1"
+                           BorderColor="White"
+                           BorderWidth="1"
+                           EnableTitleMonthYearView="true"
+                           MultiSelectDates="false"
+                           DateClicked="OnDateClicked"
+                           SpecialDates="{Binding Attendances}"
+                           DateCommand="{Binding DateChosen}"
+        />
+
+        <!-- 두 번째 행: Picker -->
+        <Picker x:Name="monthPicker"
+                Title="월 선택"
+                Grid.Row="1"
+                HorizontalOptions="CenterAndExpand"
+                VerticalOptions="End">
+            <!-- Picker에 월 목록은 코드에서 동적으로 추가할 것입니다. -->
+        </Picker>
+
+        <!-- 세 번째 행: ScrollView로 감싼 차트 -->
+        <ScrollView Grid.Row="2" Orientation="Horizontal">
+            <microcharts:ChartView x:Name="chartView"
+                                   VerticalOptions="FillAndExpand"
+                                   HorizontalOptions="FillAndExpand"
+                                   HeightRequest="300"/>
+        </ScrollView>
+    </Grid>
+</ContentPage>

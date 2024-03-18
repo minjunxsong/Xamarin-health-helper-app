@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HPxamarin.DietPage">
+
+    <ContentPage.Content>
+        <StackLayout Padding="20" BackgroundColor="#f5f5f5">
+            <!-- 타이틀 -->
+            <Label Text="식단 관리" FontSize="28" FontAttributes="Bold" HorizontalOptions="Center" Margin="0,0,0,20" TextColor="#333333" />
+
+            <!-- 날짜 표시 -->
+            <Label Text="날짜: 2024년 2월 27일" FontSize="18" HorizontalOptions="Center" Margin="0,0,0,20" TextColor="#666666" />
+
+            <!-- 식단 정보 -->
+            <ScrollView>
+                <StackLayout x:Name="dietStackLayout">
+                    <!-- 이 곳에 식단 정보가 동적으로 추가됩니다. -->
+                </StackLayout>
+            </ScrollView>
+
+            <!-- 총 칼로리 정보 -->
+            <Label x:Name="totalLabel" FontSize="20" Margin="0,20,0,0" TextColor="#333333" />
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>

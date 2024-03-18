@@ -1,0 +1,193 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/songminjun/Projects/HPxamarin/Xamarin-health-helper-app/HPxamarin/HPxamarin.Android/HPxamarin.Android.csproj": {}
+  },
+  "projects": {
+    "/Users/songminjun/Projects/HPxamarin/Xamarin-health-helper-app/HPxamarin/HPxamarin.Android/HPxamarin.Android.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/songminjun/Projects/HPxamarin/Xamarin-health-helper-app/HPxamarin/HPxamarin.Android/HPxamarin.Android.csproj",
+        "projectName": "HPxamarin.Android",
+        "projectPath": "/Users/songminjun/Projects/HPxamarin/Xamarin-health-helper-app/HPxamarin/HPxamarin.Android/HPxamarin.Android.csproj",
+        "packagesPath": "/Users/songminjun/.nuget/packages/",
+        "outputPath": "/Users/songminjun/Projects/HPxamarin/Xamarin-health-helper-app/HPxamarin/HPxamarin.Android/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/songminjun/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid13.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid13.0": {
+            "projectReferences": {
+              "/Users/songminjun/Projects/HPxamarin/Xamarin-health-helper-app/HPxamarin/HPxamarin/HPxamarin.csproj": {
+                "projectPath": "/Users/songminjun/Projects/HPxamarin/Xamarin-health-helper-app/HPxamarin/HPxamarin/HPxamarin.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid13.0": {
+          "dependencies": {
+            "CustomCalendarControl": {
+              "target": "Package",
+              "version": "[1.0.5, )"
+            },
+            "FirebaseAuthentication.net": {
+              "target": "Package",
+              "version": "[3.7.0, )"
+            },
+            "Microcharts.Forms": {
+              "target": "Package",
+              "version": "[0.9.5.8, )"
+            },
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Rg.Plugins.Popup": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "XamForms.Controls.Calendar": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "Xamarin.CommunityToolkit": {
+              "target": "Package",
+              "version": "[2.0.6, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.8.1, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2622, )"
+            },
+            "Xamarin.Forms.PancakeView": {
+              "target": "Package",
+              "version": "[2.3.0.759, )"
+            },
+            "Xamarin.Plugin.Calendar": {
+              "target": "Package",
+              "version": "[2.0.9699, )"
+            }
+          }
+        }
+      }
+    },
+    "/Users/songminjun/Projects/HPxamarin/Xamarin-health-helper-app/HPxamarin/HPxamarin/HPxamarin.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/songminjun/Projects/HPxamarin/Xamarin-health-helper-app/HPxamarin/HPxamarin/HPxamarin.csproj",
+        "projectName": "HPxamarin",
+        "projectPath": "/Users/songminjun/Projects/HPxamarin/Xamarin-health-helper-app/HPxamarin/HPxamarin/HPxamarin.csproj",
+        "packagesPath": "/Users/songminjun/.nuget/packages/",
+        "outputPath": "/Users/songminjun/Projects/HPxamarin/Xamarin-health-helper-app/HPxamarin/HPxamarin/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/songminjun/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "CustomCalendarControl": {
+              "target": "Package",
+              "version": "[1.0.5, )"
+            },
+            "FirebaseAuthentication.net": {
+              "target": "Package",
+              "version": "[3.7.0, )"
+            },
+            "FirebaseDatabase.net": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "Microcharts.Forms": {
+              "target": "Package",
+              "version": "[0.9.5.8, )"
+            },
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Rg.Plugins.Popup": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "SkiaSharp.Views.Forms": {
+              "target": "Package",
+              "version": "[2.88.7, )"
+            },
+            "XamForms.Controls.Calendar": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "Xamarin.CommunityToolkit": {
+              "target": "Package",
+              "version": "[2.0.6, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.8.1, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2622, )"
+            },
+            "Xamarin.Plugin.Calendar": {
+              "target": "Package",
+              "version": "[2.0.9699, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/Users/songminjun/Library/Caches/VisualStudio/17.0/MSBuild/7115_3/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

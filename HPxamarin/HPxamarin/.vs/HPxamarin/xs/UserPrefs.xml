@@ -1,0 +1,51 @@
+﻿<Properties>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="AuthPage.xaml.cs">
+    <Files>
+      <File FileName="AssemblyInfo.cs" />
+      <File FileName="App.xaml" />
+      <File FileName="App.xaml.cs" />
+      <File FileName="MapPage.xaml" />
+      <File FileName="MapPage.xaml.cs" />
+      <File FileName="OnePage.xaml" />
+      <File FileName="OnePage.xaml.cs" />
+      <File FileName="ProfilePage.xaml" />
+      <File FileName="ProfilePage.xaml.cs" />
+      <File FileName="SecondPage.xaml" />
+      <File FileName="SecondPage.xaml.cs" />
+      <File FileName="ThirdPage.xaml" />
+      <File FileName="ThirdPage.xaml.cs" />
+      <File FileName="LogPage.xaml" />
+      <File FileName="LogPage.xaml.cs" />
+      <File FileName="LoginPage.xaml" />
+      <File FileName="LoginPage.xaml.cs" />
+      <File FileName="FoodPage.xaml" />
+      <File FileName="FoodPage.xaml.cs" />
+      <File FileName="FirstPage.xaml" />
+      <File FileName="FirstPage.xaml.cs" />
+      <File FileName="DietPage.xaml" />
+      <File FileName="FourthPage.xaml" />
+      <File FileName="FourthPage.xaml.cs" />
+      <File FileName="Home.xaml" />
+      <File FileName="HomePage.xaml" />
+      <File FileName="HomePage.xaml.cs" />
+      <File FileName="Home.xaml.cs" />
+      <File FileName="AuthPage.xaml" />
+      <File FileName="AuthPage.xaml.cs" Line="42" Column="22" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="HPxamarin" expanded="True">
+            <Node name="HPxamarin" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>

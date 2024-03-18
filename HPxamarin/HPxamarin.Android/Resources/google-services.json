@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "901004987412",
+    "firebase_url": "https://helapp-ae123-default-rtdb.firebaseio.com",
+    "project_id": "helapp-ae123",
+    "storage_bucket": "helapp-ae123.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:901004987412:android:86f01d119223a028ecab01",
+        "android_client_info": {
+          "package_name": "com.companyname.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJvKu4ATxDADOOZ8GmCB-O288bV6KMh94"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:901004987412:android:0e557da17163ae51ecab01",
+        "android_client_info": {
+          "package_name": "com.companyname.hpxamarin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJvKu4ATxDADOOZ8GmCB-O288bV6KMh94"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:901004987412:android:418106d0b95f7698ecab01",
+        "android_client_info": {
+          "package_name": "com.compony.HPxarmarin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJvKu4ATxDADOOZ8GmCB-O288bV6KMh94"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

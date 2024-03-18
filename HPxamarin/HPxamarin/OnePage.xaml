@@ -1,0 +1,68 @@
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HPxamarin.OnePage"
+             BackgroundColor="#34495E">
+
+    <ScrollView>
+        <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand" Padding="20">
+            <Label Text="나이" TextColor="White" />
+            <Entry x:Name="AgeEntry" Placeholder="나이를 입력하세요." BackgroundColor="#2C3E50" TextColor="White" />
+
+            <Label Text="키(cm)" TextColor="White" />
+            <Entry x:Name="HeightEntry" Placeholder="키를 입력하세요." BackgroundColor="#2C3E50" TextColor="White" />
+
+            <Label Text="몸무게(kg)" TextColor="White" />
+            <Entry x:Name="WeightEntry" Placeholder="몸무게를 입력하세요." BackgroundColor="#2C3E50" TextColor="White" />
+
+            <Label Text="성별" TextColor="White" />
+            <Picker x:Name="GenderPicker" BackgroundColor="#2C3E50" TextColor="White">
+                <Picker.Items>
+                    <x:String>남성</x:String>
+                    <x:String>여성</x:String>
+                </Picker.Items>
+            </Picker>
+            <Label Text="활동 수준" TextColor="White" />
+            <Picker x:Name="ActivityLevelPicker" BackgroundColor="#2C3E50" TextColor="White">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>앉아서 생활하는 경우</x:String>
+                        <x:String>약간의 활동</x:String>
+                        <x:String>평균 이상의 활동</x:String>
+                        <x:String>활발한 활동</x:String>
+                        <x:String>아주 활발한 활동</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+
+            <Label Text="목표 선택" TextColor="White" />
+            <Picker x:Name="GoalPicker" BackgroundColor="#2C3E50" TextColor="White">
+                <Picker.Items>
+                    <x:String>근성장</x:String>
+                    <x:String>근성장 및 다이어트</x:String>
+                    <x:String>체지방 감소(다이어트)</x:String>
+                    <x:String>해당없음</x:String>
+                </Picker.Items>
+            </Picker>
+
+            <StackLayout BackgroundColor="#2C3E50" Spacing="10">
+                <Label x:Name="BMILabel" TextColor="White" />
+                
+                
+               
+                <Label x:Name="BMRLabel" TextColor="White" />
+                 <Label x:Name="ActivityLabel" TextColor="White" />
+                <Label x:Name="CarbLabel" TextColor="White" />
+
+                <Label x:Name="ProteinLabel" TextColor="White" />
+
+                <Label x:Name="FatLabel" TextColor="White" />
+               <Label Text="BMI Feedback" TextColor="White" />
+                <Label x:Name="BMIStatusLabel" TextColor="White" />
+            </StackLayout>
+
+            <Button Text="계산" Clicked="CalculateButton_Clicked" BackgroundColor="#1E90FF" TextColor="White" />
+            <Button Text="이동" Clicked="GoToFirstPageButton_Clicked" BackgroundColor="#49CA37" TextColor="White" />
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>

@@ -1,0 +1,62 @@
+{
+  "version": 2,
+  "dgSpecHash": "Qkbxfm4XQWJVAj43s8ij8J5NFqbcsuZUqhvDtPto9DTq3MZwhLrbKqd9/CRH6VO+WIsuUJs07u9DU6EfZBWVpQ==",
+  "success": true,
+  "projectFilePath": "/Users/songminjun/Projects/HPxamarin/Xamarin-health-helper-app/HPxamarin/HPxamarin.iOS/HPxamarin.iOS.csproj",
+  "expectedPackageFiles": [
+    "/Users/songminjun/.nuget/packages/customcalendarcontrol/1.0.5/customcalendarcontrol.1.0.5.nupkg.sha512",
+    "/Users/songminjun/.nuget/packages/firebaseauthentication.net/4.1.0/firebaseauthentication.net.4.1.0.nupkg.sha512",
+    "/Users/songminjun/.nuget/packages/firebasedatabase.net/4.2.0/firebasedatabase.net.4.2.0.nupkg.sha512",
+    "/Users/songminjun/.nuget/packages/litedb/4.1.4/litedb.4.1.4.nupkg.sha512",
+    "/Users/songminjun/.nuget/packages/microcharts/0.9.5.8/microcharts.0.9.5.8.nupkg.sha512",
+    "/Users/songminjun/.nuget/packages/microcharts.forms/0.9.5.8/microcharts.forms.0.9.5.8.nupkg.sha512",
+    "/Users/songminjun/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/songminjun/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/Users/songminjun/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
+    "/Users/songminjun/.nuget/packages/refractored.mvvmhelpers/1.6.2/refractored.mvvmhelpers.1.6.2.nupkg.sha512",
+    "/Users/songminjun/.nuget/packages/rg.plugins.popup/2.1.0/rg.plugins.popup.2.1.0.nupkg.sha512",
+    "/Users/songminjun/.nuget/packages/skiasharp/2.88.7/skiasharp.2.88.7.nupkg.sha512",
+    "/Users/songminjun/.nuget/packages/skiasharp.nativeassets.ios/2.88.7/skiasharp.nativeassets.ios.2.88.7.nupkg.sha512",
+    "/Users/songminjun/.nuget/packages/skiasharp.views/2.88.7/skiasharp.views.2.88.7.nupkg.sha512",
+    "/Users/songminjun/.nuget/packages/skiasharp.views.forms/2.88.7/skiasharp.views.forms.2.88.7.nupkg.sha512",
+    "/Users/songminjun/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/songminjun/.nuget/packages/system.reactive/4.0.0/system.reactive.4.0.0.nupkg.sha512",
+    "/Users/songminjun/.nuget/packages/system.reflection/4.3.0/system.reflection.4.3.0.nupkg.sha512",
+    "/Users/songminjun/.nuget/packages/system.reflection.typeextensions/4.3.0/system.reflection.typeextensions.4.3.0.nupkg.sha512",
+    "/Users/songminjun/.nuget/packages/system.runtime.interopservices.windowsruntime/4.3.0/system.runtime.interopservices.windowsruntime.4.3.0.nupkg.sha512",
+    "/Users/songminjun/.nuget/packages/system.valuetuple/4.5.0/system.valuetuple.4.5.0.nupkg.sha512",
+    "/Users/songminjun/.nuget/packages/xamarin.communitytoolkit/2.0.6/xamarin.communitytoolkit.2.0.6.nupkg.sha512",
+    "/Users/songminjun/.nuget/packages/xamarin.essentials/1.7.0/xamarin.essentials.1.7.0.nupkg.sha512",
+    "/Users/songminjun/.nuget/packages/xamarin.forms/5.0.0.2196/xamarin.forms.5.0.0.2196.nupkg.sha512",
+    "/Users/songminjun/.nuget/packages/xamarin.plugin.calendar/2.0.9699/xamarin.plugin.calendar.2.0.9699.nupkg.sha512",
+    "/Users/songminjun/.nuget/packages/xamforms.controls.calendar/1.1.1/xamforms.controls.calendar.1.1.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "1.8.1에서 1.7.0(으)로 다운그레이드된 패키지 Xamarin.Essentials을(를) 발견했습니다. 프로젝트에서 패키지를 직접 참조하여 다른 버전을 선택하세요. \n HPxamarin.iOS -> HPxamarin -> Xamarin.Essentials (>= 1.8.1) \n HPxamarin.iOS -> Xamarin.Essentials (>= 1.7.0)",
+      "libraryId": "Xamarin.Essentials",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0",
+        "Xamarin.iOS,Version=v1.0/win",
+        "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "5.0.0.2622에서 5.0.0.2196(으)로 다운그레이드된 패키지 Xamarin.Forms을(를) 발견했습니다. 프로젝트에서 패키지를 직접 참조하여 다른 버전을 선택하세요. \n HPxamarin.iOS -> HPxamarin -> Xamarin.Forms (>= 5.0.0.2622) \n HPxamarin.iOS -> Xamarin.Forms (>= 5.0.0.2196)",
+      "libraryId": "Xamarin.Forms",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0",
+        "Xamarin.iOS,Version=v1.0/win",
+        "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    }
+  ]
+}
